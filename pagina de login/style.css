@@ -1,0 +1,28 @@
+
+.corpo {
+
+}
+
+.cabeca {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+
+}
+.cabecaesquerda {
+    width: 67px;33
+    
+}
+.imagem-de-login {
+    width: 40px;
+}
+
+.cabecadireita {
+    border-bottom: 2px solid red ;
+}
+.manu {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    background: black;
+}

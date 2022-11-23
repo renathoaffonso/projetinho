@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+
+* {
+    margin:0; /* margem é a distancia pra fora/de cima de cada elemento*/
+    padding:0; /* margem da tag que estou usando para o conteudo dela/ dentro pra baixo*/
+    box-sizing: border-box;
+    text-decoration: none; /* none retira todas as decorações que possam ja esta predefinidas no sistema, isso é para que a gente decore como a gente quiser*/
+}
+body {
+    font-size:100%; /* tamanho da fonte*/
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.primeiro-logo {
+    height: 150px;
+}
+
+.cabeçalho-menu {
+    display: flex;
+    gap: 32px;
+}
+.primeira-angora-comunidade {
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.segunda-ancora {
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.terceira-ancora {
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+}
+.quarta-ancora {
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.corpo-principal {
+    margin-bottom: 48px; /* espaço do corpo para o rodape*/
+    border-top: 0.4px solid #FFF2E7; /* barra de separação do cabeçalho e do corpo*/
+}
+
+.primeira-parte-principal {
+    display: flex; /* utiliza dos recursos do FlexBox */
+    flex-direction: row; /* Deixa dos elementos alinhados */
+    align-items: center; /* deixa dos elementos alinhados, centralizados*/
+    justify-content: space-around; /*deixa um espaço entre os elementos e as bordas dos cantos*/
+}
+
+.parte-do-texto {
+    display: flex;
+    flex-direction: column; /* colocou os textos em colunas*/
+    gap: 32px;
+}
+
+.titulo-principal {
+    font-family: 'Righteous',cursive; /*fonte pesquisada no google font*/
+    font-weight: 400; /* peso da fonte, da intensidade na cor*/
+    font-size: 64px;/* tamanho da fonte*/
+    color: #FFF2E7; /* cor*/
+}
+
+.segundo-titulo-principal {
+    font-family: 'Sarala', sans-serif; /*fonte pesquisada no google font*/
+    font-weight: 400; /* peso da fonte, da intensidade na cor*/
+    font-size: 24px;/* tamanho da fonte*/
+    color: #ECD6C4; /* cor*/
+}
+
+.botao-adicionar {
+    font-family: 'Sarala', sans-serif;
+    color:#2F2325;
+    font-size: 24px;
+
+    
+    background-color: #ECD6C4;
+    width: 280px; /*peso*/
+    height: 40px; /*altura*/
+    left: 350px; 
+    top: 400px;
+    border: none; /*tira uma borda que veio predefinida*/
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25); /* poe sombra no botão*/
+    border-radius: 15px; /*deixa o arredondado no botão*/
+
+}
+
+.botao-adicionar:hover {
+    background-color: rgba(235, 214, 196, 0.53);
+}
+    
+
+.imagem-da-isa {
+    height: 430px;
+
+}
+
+.segunda-parte-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /*alinhar a coluna no centro*/
+    gap: 24px; /*espaçamento entre as linhas*/
+    margin-top: 48px; /*distancia entre esses conteudos dos de cima*/    
+
+}
+
+.titulozinho {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px; /* para nao mexer no texto, apenas na linha*/
+
+    font-family: 'Righteous',cursive; /*fonte pesquisada no google font*/
+    font-weight: 400; /* peso da fonte, da intensidade na cor*/
+    font-size:24px;/* tamanho da fonte*/
+    color: #FFF2E7; /* cor*/
+    line-height: 30px;
+    margin-bottom: 36px; /*distancia do titulo para o conteudo de baixo*/
+}
+
+.primeiro-paragrafo {
+    font-family: 'Sarala', sans-serif; /*fonte pesquisada no google font*/
+    font-weight: 400; /* peso da fonte, da intensidade na cor*/
+    font-size: 18px;/* tamanho da fonte*/
+    color: #ECD6C4; /* cor*/
+}
+.segundo-paragrafo {
+    font-family: 'Sarala', sans-serif; /*fonte pesquisada no google font*/
+    font-weight: 400; /* peso da fonte, da intensidade na cor*/
+    font-size: 18px;/* tamanho da fonte*/
+    color: #ECD6C4; /* cor*/
+}
+.terceiro-paragrafo {
+    font-family: 'Sarala', sans-serif; /*fonte pesquisada no google font*/
+    font-weight: 400; /* peso da fonte, da intensidade na cor*/
+    font-size: 18px;/* tamanho da fonte*/
+    color: #ECD6C4; /* cor*/
+}
+
+.rodape {
+    border-top: 0.4px solid #FFF2E7;
+    padding: 32px;
+}
+
+.imagem-do-rodape {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+
+}

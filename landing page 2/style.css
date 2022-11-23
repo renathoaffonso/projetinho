@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+
+body {
+    text-decoration: none;
+    background: linear-gradient( -119deg,  rgb(124, 124, 124) 0%, rgb(54, 53, 53) 100%);
+    box-decoration-break: none;
+    direction: none;
+}
+
+.Corpo {
+    font-family: 'Sarala', sans-serif;
+}
+.cabeçalho {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+    border-bottom: 2px solid black;
+    
+}
+
+   
+
+.imagem-logo {
+    height: 150px;
+    background-color: black;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 100px;
+    margin-right: 150px;
+
+}
+
+.menu-navegação {
+    padding: 20px;
+    text-decoration: none;
+
+}
+
+.ancora {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+
+    border: 3px double black;
+    margin-top: 30px;
+    color :antiquewhite;
+    border-radius: 20px;
+    background-color: rgb(4, 4, 73);
+    text-decoration: none;
+    
+}
+.ancora:hover {
+    background-color: rgb(12, 12, 110);
+}
+
+.corpo-principal {
+    display: flex;
+    justify-items: center;
+    border-bottom: 2px solid black;
+    background: 100px;
+}
+
+.titulo {
+    display: flex;
+    justify-items: center;
+    font-family: 'Righteous', cursive;
+    font-weight: 300;
+    font-size: 100px;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.rodape {
+    padding: 30px;
+}
+.imagemfinal {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin: auto;
+    height: 200px    
+}
+
+.corpo-principal {
+    display: flex;
+    justify-items: center;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.imagem-grande {
+    display: flex;
+    justify-items: none;
+    margin-top: 30px;
+    padding-left: 200px;
+}
+.texto-secundario {
+    padding-left: 30px;
+}
